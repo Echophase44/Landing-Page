@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #377cad;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.left-links, .right-links {
+    display: flex;
+    align-items: center;
+}
+
+.right-links {
+    gap: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
