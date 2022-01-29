@@ -1,13 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #377cad;
+    justify-content: center;
+    gap: 30px;
+
 }
 
 .header {
     display: flex;
-    background-color: #377cad;
-    display: flex;
     justify-content: space-between;
+    margin: 0px 225px
 }
 
 .logo {
@@ -22,6 +31,7 @@ body {
 .right-links {
     gap: 30px;
     font-family: Roboto, sans-serif;
+    color: white;
 }
 
 ul {
@@ -30,4 +40,53 @@ ul {
 
 a {
     text-decoration: none;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 100px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 300px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.content {
+    font-size: 18px;
+    max-width: 300px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #aff0b5;
+    padding: 12px 20px;
+}
+
+.content-img {
+    width: 275px;
+    height: 275px;
 }
