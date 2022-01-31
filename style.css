@@ -79,11 +79,14 @@ img {
 }
 
 .top-button {
-    border: none;
+    border: #E5E7EB solid 2px;
     border-radius: 8px;
     padding: 8px 16px;
-    background-color: #aff0b5;
+    background-color: #60947d;
     padding: 12px 20px;
+    color: #E5E7EB;
+    font-size: 14px;
+
 }
 
 .content-img {
