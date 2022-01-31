@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     background-color: #377cad;
     justify-content: center;
-    gap: 30px;
+    gap: 75px;
 
 }
 
@@ -55,12 +55,13 @@ img {
     margin-left: 225px;
     margin-right: 225px;
     margin-bottom: 100px;
+    gap: 36px;
 }
 
 .right-content {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 
 .title {
@@ -87,8 +88,8 @@ button {
 }
 
 .content-img {
-    max-width: 325px;
-    max-height: 275px;
+    width: auto;
+    height: 300px;
 }
 
 .card-two {
@@ -131,4 +132,29 @@ button {
     font-family: Roboto, sans-serif;
     font-size: 18px;
     color: #377cad;
+}
+
+.card-three {
+    background-color: #377cad;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.quote {
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 36px;
+    margin: 50px 50px 0px 50px;
+}
+
+.author {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 700;
+    margin: 0px 50px 50px 50px;
 }
